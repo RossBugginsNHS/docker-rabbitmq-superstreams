@@ -1,0 +1,100 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/rb/source/docker-rabbitmq-superstreams/rabbitmq-stream-client/src/RabbitMQ.Stream.Client/RabbitMQ.Stream.Client.csproj": {}
+  },
+  "projects": {
+    "/home/rb/source/docker-rabbitmq-superstreams/rabbitmq-stream-client/src/RabbitMQ.Stream.Client/RabbitMQ.Stream.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/rb/source/docker-rabbitmq-superstreams/rabbitmq-stream-client/src/RabbitMQ.Stream.Client/RabbitMQ.Stream.Client.csproj",
+        "projectName": "RabbitMQ.Stream.Client",
+        "projectPath": "/home/rb/source/docker-rabbitmq-superstreams/rabbitmq-stream-client/src/RabbitMQ.Stream.Client/RabbitMQ.Stream.Client.csproj",
+        "packagesPath": "/home/rb/.nuget/packages/",
+        "outputPath": "/home/rb/source/docker-rabbitmq-superstreams/rabbitmq-stream-client/src/RabbitMQ.Stream.Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/rb/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "MinVer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "System.IO.Pipelines": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/rb/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

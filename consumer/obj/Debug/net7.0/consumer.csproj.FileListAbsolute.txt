@@ -28,6 +28,7 @@
 /home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
 /home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
+/home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/RabbitMQ.Stream.Client.dll
 /home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/System.Diagnostics.EventLog.dll
 /home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/System.IO.Pipelines.dll
 /home/rb/source/docker-rabbitmq-superstreams/consumer/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Diagnostics.EventLog.Messages.dll
@@ -37,7 +38,6 @@
 /home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/consumer.AssemblyInfoInputs.cache
 /home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/consumer.AssemblyInfo.cs
 /home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/consumer.csproj.CoreCompileInputs.cache
-/home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/consumer.sourcelink.json
 /home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/consumer.csproj.CopyComplete
 /home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/consumer.dll
 /home/rb/source/docker-rabbitmq-superstreams/consumer/obj/Debug/net7.0/refint/consumer.dll

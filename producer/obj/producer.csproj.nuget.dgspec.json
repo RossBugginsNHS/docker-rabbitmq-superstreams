@@ -38,12 +38,6 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.CodeAnalysis.PublicApiAnalyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.3.3, )"
-            },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -56,21 +50,9 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.SourceLink.GitHub": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "RabbitMQ.Stream.Client": {
               "target": "Package",
-              "version": "[1.1.1, )"
-            },
-            "MinVer": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.0, )"
-            },
-            "System.IO.Pipelines": {
-              "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

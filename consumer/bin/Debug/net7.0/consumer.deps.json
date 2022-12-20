@@ -6,22 +6,17 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "consumer/0.0.0-alpha.0.1": {
+      "consumer/1.0.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.PublicApiAnalyzers": "3.3.3",
           "Microsoft.Extensions.Hosting": "7.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
           "Microsoft.Extensions.Logging.Console": "7.0.0",
-          "Microsoft.SourceLink.GitHub": "1.1.1",
-          "MinVer": "3.1.0",
-          "System.IO.Pipelines": "7.0.0"
+          "RabbitMQ.Stream.Client": "1.0.0"
         },
         "runtime": {
           "consumer.dll": {}
         }
       },
-      "Microsoft.Build.Tasks.Git/1.1.1": {},
-      "Microsoft.CodeAnalysis.PublicApiAnalyzers/3.3.3": {},
       "Microsoft.Extensions.Configuration/7.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
@@ -354,14 +349,18 @@
           }
         }
       },
-      "Microsoft.SourceLink.Common/1.1.1": {},
-      "Microsoft.SourceLink.GitHub/1.1.1": {
+      "RabbitMQ.Stream.Client/1.0.0": {
         "dependencies": {
-          "Microsoft.Build.Tasks.Git": "1.1.1",
-          "Microsoft.SourceLink.Common": "1.1.1"
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
+          "System.IO.Pipelines": "6.0.2"
+        },
+        "runtime": {
+          "lib/net6.0/RabbitMQ.Stream.Client.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
-      "MinVer/3.1.0": {},
       "System.Diagnostics.EventLog/7.0.0": {
         "runtime": {
           "lib/net7.0/System.Diagnostics.EventLog.dll": {
@@ -384,11 +383,11 @@
           }
         }
       },
-      "System.IO.Pipelines/7.0.0": {
+      "System.IO.Pipelines/6.0.2": {
         "runtime": {
-          "lib/net7.0/System.IO.Pipelines.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.22.51805"
+          "lib/net6.0/System.IO.Pipelines.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.222.6406"
           }
         }
       },
@@ -401,24 +400,10 @@
     }
   },
   "libraries": {
-    "consumer/0.0.0-alpha.0.1": {
+    "consumer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
-    },
-    "Microsoft.Build.Tasks.Git/1.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-AT3HlgTjsqHnWpBHSNeR0KxbLZD7bztlZVj7I8vgeYG9SYqbeFGh0TM/KVtC6fg53nrWHl3VfZFvb5BiQFcY6Q==",
-      "path": "microsoft.build.tasks.git/1.1.1",
-      "hashPath": "microsoft.build.tasks.git.1.1.1.nupkg.sha512"
-    },
-    "Microsoft.CodeAnalysis.PublicApiAnalyzers/3.3.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-DWLeZtw2jszmzAh/MZXVo/Dy8fD9vcRaCIRZTaf2ppqaug8BGIV81dQdZfaYFlNuw7FyuZLVC5SZPZsCcePZhQ==",
-      "path": "microsoft.codeanalysis.publicapianalyzers/3.3.3",
-      "hashPath": "microsoft.codeanalysis.publicapianalyzers.3.3.3.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
       "type": "package",
@@ -595,26 +580,12 @@
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
-    "Microsoft.SourceLink.Common/1.1.1": {
+    "RabbitMQ.Stream.Client/1.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WMcGpWKrmJmzrNeuaEb23bEMnbtR/vLmvZtkAP5qWu7vQsY59GqfRJd65sFpBszbd2k/bQ8cs8eWawQKAabkVg==",
-      "path": "microsoft.sourcelink.common/1.1.1",
-      "hashPath": "microsoft.sourcelink.common.1.1.1.nupkg.sha512"
-    },
-    "Microsoft.SourceLink.GitHub/1.1.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-IaJGnOv/M7UQjRJks7B6p7pbPnOwisYGOIzqCz5ilGFTApZ3ktOR+6zJ12ZRPInulBmdAf1SrGdDG2MU8g6XTw==",
-      "path": "microsoft.sourcelink.github/1.1.1",
-      "hashPath": "microsoft.sourcelink.github.1.1.1.nupkg.sha512"
-    },
-    "MinVer/3.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-a7e2zj145UlybI6NAt9cyTjqKJpvbQzX/Th7bAdD8yTPhvzHfuAaFBe+ZBA7Cb0hVXCyyeeJikhKPB8pAbIAzA==",
-      "path": "minver/3.1.0",
-      "hashPath": "minver.3.1.0.nupkg.sha512"
+      "sha512": "sha512-H4tD8cdcqaoagx9u47PUEAlDtAjcGR1wwPJPk0RkKAqm+Yj1cFKGkdFCLm9+XcZ5o2yeTAajQ3tVLyu6hTdSXg==",
+      "path": "rabbitmq.stream.client/1.0.0",
+      "hashPath": "rabbitmq.stream.client.1.0.0.nupkg.sha512"
     },
     "System.Diagnostics.EventLog/7.0.0": {
       "type": "package",
@@ -623,12 +594,12 @@
       "path": "system.diagnostics.eventlog/7.0.0",
       "hashPath": "system.diagnostics.eventlog.7.0.0.nupkg.sha512"
     },
-    "System.IO.Pipelines/7.0.0": {
+    "System.IO.Pipelines/6.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jRn6JYnNPW6xgQazROBLSfpdoczRw694vO5kKvMcNnpXuolEixUyw6IBuBs2Y2mlSX/LdLvyyWmfXhaI3ND1Yg==",
-      "path": "system.io.pipelines/7.0.0",
-      "hashPath": "system.io.pipelines.7.0.0.nupkg.sha512"
+      "sha512": "sha512-cb5OfQjnz+zjpJJei+f3QYK7+wWZrDdNHf3DykO6QCacpNZ80tuNgq1DC2kqlrjfEu+cMUTvulxPIrCMbBkjqg==",
+      "path": "system.io.pipelines/6.0.2",
+      "hashPath": "system.io.pipelines.6.0.2.nupkg.sha512"
     },
     "System.Text.Encodings.Web/7.0.0": {
       "type": "package",

@@ -13,16 +13,6 @@
     <SourceRoot Include="/home/rb/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.common/1.1.1/build/Microsoft.SourceLink.Common.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.common/1.1.1/build/Microsoft.SourceLink.Common.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.build.tasks.git/1.1.1/build/Microsoft.Build.Tasks.Git.props" Condition="Exists('$(NuGetPackageRoot)microsoft.build.tasks.git/1.1.1/build/Microsoft.Build.Tasks.Git.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.github/1.1.1/build/Microsoft.SourceLink.GitHub.props" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.github/1.1.1/build/Microsoft.SourceLink.GitHub.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/7.0.0/buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.configuration.usersecrets/7.0.0/buildTransitive/net6.0/Microsoft.Extensions.Configuration.UserSecrets.props')" />
-    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.publicapianalyzers/3.3.3/build/Microsoft.CodeAnalysis.PublicApiAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.publicapianalyzers/3.3.3/build/Microsoft.CodeAnalysis.PublicApiAnalyzers.props')" />
   </ImportGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_SourceLink_Common Condition=" '$(PkgMicrosoft_SourceLink_Common)' == '' ">/home/rb/.nuget/packages/microsoft.sourcelink.common/1.1.1</PkgMicrosoft_SourceLink_Common>
-    <PkgMicrosoft_Build_Tasks_Git Condition=" '$(PkgMicrosoft_Build_Tasks_Git)' == '' ">/home/rb/.nuget/packages/microsoft.build.tasks.git/1.1.1</PkgMicrosoft_Build_Tasks_Git>
-    <PkgMicrosoft_SourceLink_GitHub Condition=" '$(PkgMicrosoft_SourceLink_GitHub)' == '' ">/home/rb/.nuget/packages/microsoft.sourcelink.github/1.1.1</PkgMicrosoft_SourceLink_GitHub>
-    <PkgMicrosoft_CodeAnalysis_PublicApiAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_PublicApiAnalyzers)' == '' ">/home/rb/.nuget/packages/microsoft.codeanalysis.publicapianalyzers/3.3.3</PkgMicrosoft_CodeAnalysis_PublicApiAnalyzers>
-  </PropertyGroup>
 </Project>

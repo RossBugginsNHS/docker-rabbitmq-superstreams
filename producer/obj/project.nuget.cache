@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "C35vWwjKSLu4nOprImNK9wz6eORC+BLS4ePsutfv2+fqUg48VuTTJHLGm1qhAvcTZQUvnsyVQhNzU7mJIW+JDQ==",
+  "dgSpecHash": "iuLiNdfh8GWuieHtfk5ZVdpVT+V0KKlpdBsWZFhXxi9cVy8rsi1KJKa6N6urni/Yhhj/oaC8i85PmholoyM3Hw==",
   "success": true,
   "projectFilePath": "/home/rb/source/docker-rabbitmq-superstreams/producer/producer.csproj",
   "expectedPackageFiles": [
-    "/home/rb/.nuget/packages/microsoft.build.tasks.git/1.1.1/microsoft.build.tasks.git.1.1.1.nupkg.sha512",
-    "/home/rb/.nuget/packages/microsoft.codeanalysis.publicapianalyzers/3.3.3/microsoft.codeanalysis.publicapianalyzers.3.3.3.nupkg.sha512",
     "/home/rb/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "/home/rb/.nuget/packages/microsoft.extensions.configuration.abstractions/7.0.0/microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "/home/rb/.nuget/packages/microsoft.extensions.configuration.binder/7.0.0/microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
@@ -31,11 +29,9 @@
     "/home/rb/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/home/rb/.nuget/packages/microsoft.extensions.options.configurationextensions/7.0.0/microsoft.extensions.options.configurationextensions.7.0.0.nupkg.sha512",
     "/home/rb/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/home/rb/.nuget/packages/microsoft.sourcelink.common/1.1.1/microsoft.sourcelink.common.1.1.1.nupkg.sha512",
-    "/home/rb/.nuget/packages/microsoft.sourcelink.github/1.1.1/microsoft.sourcelink.github.1.1.1.nupkg.sha512",
-    "/home/rb/.nuget/packages/minver/3.1.0/minver.3.1.0.nupkg.sha512",
+    "/home/rb/.nuget/packages/rabbitmq.stream.client/1.0.0/rabbitmq.stream.client.1.0.0.nupkg.sha512",
     "/home/rb/.nuget/packages/system.diagnostics.eventlog/7.0.0/system.diagnostics.eventlog.7.0.0.nupkg.sha512",
-    "/home/rb/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/home/rb/.nuget/packages/system.io.pipelines/6.0.2/system.io.pipelines.6.0.2.nupkg.sha512",
     "/home/rb/.nuget/packages/system.text.encodings.web/7.0.0/system.text.encodings.web.7.0.0.nupkg.sha512",
     "/home/rb/.nuget/packages/system.text.json/7.0.0/system.text.json.7.0.0.nupkg.sha512"
   ],
